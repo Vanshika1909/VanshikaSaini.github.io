@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 
-/*
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -274,6 +270,21 @@ input, select, textarea {
 
 		}
 
+/* Ocean Effect*/
+        /* Add this section after your existing container or hero section */
+        .ocean-background {
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+		background-image: url('your-background-image.jpg'); /* Replace with your actual image */
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		transition: background-position 0.1s ease-out;
+	}
+
+
 /* Row */
 
 	.row {
@@ -295,7 +306,7 @@ input, select, textarea {
 			justify-content: flex-start;
 		}
 
-		.row.aln-center {
+		.aln-center {
 			justify-content: center;
 		}
 
