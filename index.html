@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Vanshika Saini Portfolio</title>
@@ -21,9 +17,11 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><a href="https://www.linkedin.com/in/vanshikasainii/" id="logo">Vanshika Saini</a></h1>
+								<div class="ocean-background">
+								<h1><a href="https://www.linkedin.com/in/vanshikasainii/" id="logo">Vanshika Vanz Saini</a></h1>
 								<hr />
 								<p>Innovating at the Intersection of Data, AI, and Technology</p>
+								</div>
 							</header>
 							<footer>
 								<a href="#banner" class="button circled scrolly">About Me</a>
@@ -388,6 +386,19 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		        <script>
+				// JavaScript for ocean-like cursor movement effect
+				document.addEventListener('mousemove', function (e) {
+					const oceanBackground = document.querySelector('.ocean-background');
+					const movementStrength = 25; // Adjust this to make the effect more/less intense
+					const width = window.innerWidth / 2 - e.pageX;
+					const height = window.innerHeight / 2 - e.pageY;
+					// Update the background position based on cursor position
+					oceanBackground.style.backgroundPosition = `${width / movementStrength}px ${height / movementStrength}px`;
+				});
+			</script>
+
 
 	</body>
 </html>
