@@ -21,7 +21,7 @@ To run the website locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/portfolio-website.git
+   git clone https://github.com/Vanshika1909/VanshikaSaini.github.io
 2. Navigate to the project directory:
    ```bash
    cd portfolio-website
